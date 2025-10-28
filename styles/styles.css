@@ -1,1 +1,28 @@
+img{
+  margin-left: -15%;
+}
 
+.real-image{
+  margin-left: -10%;
+}
+
+/*media query for input container*/
+  @media (min-width: 768px){
+        .news-input{
+        width: 50%;
+    }
+     .img{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+  .text{
+    width: 100%;
+  }
+  .img2{
+  width: 100%;
+  margin-left: 15%;
+}
+
+  }
