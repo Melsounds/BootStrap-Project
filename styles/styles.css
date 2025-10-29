@@ -1,13 +1,9 @@
-img{
-  margin-left: -15%;
-}
-
-.real-image{
-  margin-left: -10%;
-}
 
 /*media query for input container*/
   @media (min-width: 768px){
+    .personal{
+      margin-left: 5%;
+    }
         .news-input{
         width: 50%;
     }
@@ -18,11 +14,43 @@ img{
     width: 100%;
   }
   .text{
-    width: 100%;
+    width: 50%;
+    padding: 0;
   }
   .img2{
   width: 100%;
   margin-left: 15%;
+}
+img{
+  margin-left: -15%;
+  width: 100%;
+}
+
+.real-image{
+  margin-left: 0%;
+  width: 100%;
+}
+.instructors img{
+  width: 130px;
+  border-radius: 50%;
+  background: rgb(216, 213, 213);
+  margin-bottom: 10px;
+}
+.copyright{
+  border: 1px solid #fff;
+  width: 5px;
+  border-radius: 100%;
+}
+  }
+  @media (max-width:600px) {
+  img{
+  width: 95%;
+  }
+  .instructors img{
+  width: 130px;
+  border-radius: 50%;
+  background: rgb(216, 213, 213);
+  margin-bottom: 10px;
 }
 
   }
