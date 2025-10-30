@@ -4,7 +4,7 @@
     .personal{
       margin-left: 5%;
     }
-        .news-input{
+        #news-input{
         width: 50%;
     }
      .img{
@@ -42,6 +42,11 @@ img{
   border-radius: 100%;
 }
   }
+  @media (max-width:768px) {
+        #news-input{
+        margin-top: 30px;
+    }
+  }
   @media (max-width:600px) {
   img{
   width: 95%;
@@ -53,4 +58,7 @@ img{
   margin-bottom: 10px;
 }
 
+        #news-input{
+        margin-top: 30px;
+    }
   }
